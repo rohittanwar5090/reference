@@ -1,0 +1,14 @@
+.nav__black {
+    background-image: linear-gradient(to right bottom,black ,#1B0234);
+    /* background-color: white; */
+    transition: all 500ms;
+  }
+  
+  @media(max-width:550px){
+    .nav__black{
+      background-color: white;
+    }
+    .nav__black div{
+      color: white;
+    }
+  }

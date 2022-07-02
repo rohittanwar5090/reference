@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .convinced__card--primary {
+    @apply bg-white flex shadow-xl p-5 mb-3 cursor-pointer;
+  }
+  .convinced__card--secondary {
+    @apply bg-white shadow-lg p-5 mb-3 cursor-pointer;
+  }
+  .navbar__big {
+    @apply px-3 py-2 font-semibold text-[#2A3158] text-lg ;
+  }
+  .navbar__small {
+    @apply text-[#2A3158] block px-3 py-2 text-base font-semibold ;
+  }
+}

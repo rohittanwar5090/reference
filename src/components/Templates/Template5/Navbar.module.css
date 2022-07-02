@@ -1,0 +1,16 @@
+.nav__black {
+  background-color: black;
+  color: white;
+  transition: all 500ms;
+}
+.nav__black  div{
+  color: white;
+}
+ @media(max-width:550px){
+  .nav__black{
+    background-color: black;
+  }
+  .nav__black div{
+    color: white;
+  }
+} 
